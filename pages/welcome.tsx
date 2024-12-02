@@ -33,7 +33,7 @@ const Welcome = () => {
 	return (
 		<div>
 			<Head>
-				<title>Nikita & Alsina</title>
+				<title>Rustam & Zilola</title>
 				<link
 					rel="icon"
 					type="image/x-icon"
