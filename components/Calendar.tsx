@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { GiBigDiamondRing } from "react-icons/gi";
 
 interface CalendarProps { }
@@ -100,7 +101,9 @@ const Calendar: React.FC<CalendarProps> = () => {
 						))}
 					</ul>
 				</div>
-				<img
+				<Image
+					width={1000}
+					height={1000}
 					className="w-20 m-auto"
 					src="https://optim.tildacdn.com/tild6664-3235-4665-b766-323663623865/-/resize/148x/-/format/webp/photo.png"
 					alt="Фото"

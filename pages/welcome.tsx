@@ -212,7 +212,7 @@ const Welcome = () => {
 								}}
 								className="block mt-5 text-center"
 							>
-								Ориентир: кинотеатр "ВАТАН"
+								Ориентир: кинотеатр &quot;ВАТАН&quot;
 							</motion.p>
 						</div>
 						<motion.div

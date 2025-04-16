@@ -103,7 +103,7 @@ const Form: React.FC<FormProps> = () => {
          drink: "",
          attendance: "",
       });
-   }, [isSubmitSuccessful]);
+   }, [isSubmitSuccessful, reset]);
 
    return (
       <div className="custom-container px-10">
