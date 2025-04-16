@@ -16,7 +16,7 @@ const Header: React.FC<HeaderProps> = () => {
 					}}
 					className="text-[17px]"
 				>
-					Декабрь, 3
+					Май, 10
 				</motion.p>
 
 				<motion.p
@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = () => {
 					}}
 					className="text-[17px]"
 				>
-					Рустам & Зилола
+					Фирдавс & Маржона
 				</motion.p>
 			</div>
 		</header>
