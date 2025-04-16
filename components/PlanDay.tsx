@@ -6,15 +6,15 @@ import { motion } from "framer-motion";
 interface PlanDayProps {}
 
 const arr = [
-	{
-		id: 0,
-		date: "11:00",
-		title: "Загс",
-		subTitle: "Сладкая традиция, которую мы не можем пропустить.",
-	},
+	// {
+	// 	id: 0,
+	// 	date: "11:00",
+	// 	title: "Загс",
+	// 	subTitle: "Сладкая традиция, которую мы не можем пропустить.",
+	// },
 	{
 		id: 1,
-		date: "18:00",
+		date: "16:00",
 		title: "Вечер",
 		subTitle: "К сожалению, даже такой волшебный вечер может закончиться.",
 	},
@@ -34,7 +34,8 @@ const PlanDay: React.FC<PlanDayProps> = () => {
 						duration: 1,
 					}}
 				>
-					Программа дня
+					{/* Программа дня */}
+					Время проведение
 				</motion.h2>
 			</div>
 			<div className="flex flex-col gap-10 mt-5 relative">
