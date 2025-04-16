@@ -101,9 +101,7 @@ const Calendar: React.FC<CalendarProps> = () => {
 						))}
 					</ul>
 				</div>
-				<Image
-					width={1000}
-					height={1000}
+				<img
 					className="w-20 m-auto"
 					src="https://optim.tildacdn.com/tild6664-3235-4665-b766-323663623865/-/resize/148x/-/format/webp/photo.png"
 					alt="Фото"
