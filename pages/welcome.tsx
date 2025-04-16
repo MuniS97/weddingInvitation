@@ -243,6 +243,28 @@ const Welcome = () => {
 					</div>
 				</section>
 
+				<motion.div
+					initial={{ y: 40, scale: 0.9, opacity: 0 }}
+					whileInView={{ y: 0, scale: 1, opacity: 1 }}
+					transition={{
+						delay: 0,
+						ease: "easeOut",
+						duration: 1,
+					}}
+					className="w-52 h-52 mx-auto rounded-full overflow-hidden bg-gray-400 mt-10"
+				>
+					<Image
+						className="w-full h-full object-cover object-top scale-150"
+						style={{
+							objectPosition: "60% 0",
+						}}
+						src={"/images/image-4.webp"}
+						width={1000}
+						height={1000}
+						alt="img"
+					/>
+				</motion.div>
+
 				<section>
 					<PlanDay />
 				</section>
@@ -373,27 +395,6 @@ const Welcome = () => {
 							</motion.h2>
 						</div>
 						<div className="mt-10">
-							<motion.div
-								initial={{ y: 40, scale: 0.9, opacity: 0 }}
-								whileInView={{ y: 0, scale: 1, opacity: 1 }}
-								transition={{
-									delay: 0,
-									ease: "easeOut",
-									duration: 1,
-								}}
-								className="w-52 h-52 mx-auto rounded-full overflow-hidden bg-gray-400"
-							>
-								<Image
-									className="w-full h-full object-cover object-top scale-150 "
-									style={{
-										objectPosition: "60% 20px",
-									}}
-									src={"/images/image-4.webp"}
-									width={1000}
-									height={1000}
-									alt="img"
-								/>
-							</motion.div>
 							<motion.p
 								initial={{ y: 20, scale: 0.9, opacity: 0 }}
 								whileInView={{ y: 0, scale: 1, opacity: 1 }}
@@ -405,8 +406,8 @@ const Welcome = () => {
 								className="text-lg text-center mt-5"
 							>
 								Фирдавс:
-								<a href="tel:+9989066887707">
-									{" "}+998 (90) 668-77-07
+								<a href="tel:+9988866887707">
+									{" "}+998 (88) 668-77-07
 								</a>
 							</motion.p>
 							{/* <motion.p
