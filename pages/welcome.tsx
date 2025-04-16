@@ -143,7 +143,7 @@ const Welcome = () => {
 								className="text-xl text-center mt-5"
 							>
 								<span className="font-[champignon] text-5xl leading-3 font-medium mr-3">
-									03 12 2024
+									10 05 2025
 								</span>{" "}
 								года
 							</motion.p>
@@ -200,7 +200,7 @@ const Welcome = () => {
 								}}
 								className="text-[18px] text-center"
 							>
-								Ресторан Versal
+								Ресторан Vatan
 							</motion.p>
 							<motion.p
 								initial={{ scale: 0.9, opacity: 0 }}
@@ -212,7 +212,7 @@ const Welcome = () => {
 								}}
 								className="block mt-5 text-center"
 							>
-								Ориентир: Сельский 1 круг
+								Ориентир: кинотеатр "ВАТАН"
 							</motion.p>
 						</div>
 						<motion.div
@@ -227,7 +227,7 @@ const Welcome = () => {
 						>
 							<Link
 								href={
-									"https://yandex.uz/maps/10334/samarkand/?ll=66.957199%2C39.620168&mode=poi&poi%5Bpoint%5D=66.956913%2C39.619906&poi%5Buri%5D=ymapsbm1%3A%2F%2Forg%3Foid%3D166010587694&z=18.86"
+									"https://yandex.uz/maps/-/CHbbQQ3b"
 								}
 								className="relative max-w-[260px] w-full h-10 px-5 flex items-center gap-2 border border-black rounded-full"
 							>
@@ -404,10 +404,9 @@ const Welcome = () => {
 								}}
 								className="text-lg text-center mt-5"
 							>
-								Рустам:
-								<a href="tel:+998 (90) 600 6407">
-									{" "}
-									+998 (90) 600-64-07
+								Фирдавс:
+								<a href="tel:+9989066887707">
+									{" "}+998 (90) 668-77-07
 								</a>
 							</motion.p>
 							{/* <motion.p
@@ -426,7 +425,7 @@ const Welcome = () => {
 									+998 (88) 223 3355
 								</a>
 							</motion.p> */}
-							{/* <div className="flex items-center justify-around mt-7">
+							<div className="flex items-center justify-around mt-7">
 								<motion.div
 									initial={{ x: -40, scale: 0.9, opacity: 0 }}
 									whileInView={{ x: 0, scale: 1, opacity: 1 }}
@@ -437,7 +436,7 @@ const Welcome = () => {
 									}}
 								>
 									<Link
-										href={"https://t.me/tennikita26"}
+										href={"https://t.me/firdavs_billion"}
 										className="flex text-xs rounded-full border border-blue-700"
 									>
 										<p className="my-2.5 mx-5 font-serif font-black text-blue-700">
@@ -450,7 +449,7 @@ const Welcome = () => {
 										</span>
 									</Link>
 								</motion.div>
-								<motion.div
+								{/* <motion.div
 									initial={{ x: 40, scale: 0.9, opacity: 0 }}
 									whileInView={{ x: 0, scale: 1, opacity: 1 }}
 									transition={{
@@ -472,8 +471,8 @@ const Welcome = () => {
 											</span>
 										</span>
 									</Link>
-								</motion.div>
-							</div> */}
+								</motion.div> */}
+							</div>
 						</div>
 					</div>
 				</section>
