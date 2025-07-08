@@ -17,7 +17,7 @@ const Counter: React.FC<CounterProps> = () => {
 	const totalDays = 365; // Adjust according to your use case
 
 	useEffect(() => {
-		const date = new Date("07/16/2025 18:00:00");
+		const date = new Date("07/16/2025 18:30:00");
 
 		const interval = setInterval(() => {
 			const now = new Date();
