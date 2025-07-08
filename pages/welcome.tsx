@@ -33,7 +33,7 @@ const Welcome = () => {
 	return (
 		<div>
 			<Head>
-				<title>Firdavs & Marjona</title>
+				<title>Abdullo & Shabnam</title>
 				<link
 					rel="icon"
 					type="image/x-icon"
@@ -111,10 +111,8 @@ const Welcome = () => {
 								}}
 								className=" text-center mt-5"
 							>
-								Один день в этом году будет для нас особенным и
-								мы хотим провести его в кругу близких и друзей.
-								С большим удовольствием приглашаем вас на
-								знаменательный праздник - нашу свадьбу!
+								С огромной радостью и волнением сообщаем, что в этом году состоится одно из самых важных событий в нашей жизни — наша свадьба!
+								Мы мечтаем разделить этот день с самыми близкими, и с огромным удовольствием приглашаем вас отпраздновать его вместе с нами!
 							</motion.p>
 						</div>
 						<div className="mt-20">
@@ -143,7 +141,7 @@ const Welcome = () => {
 								className="text-xl text-center mt-5"
 							>
 								<span className="font-[champignon] text-5xl leading-3 font-medium mr-3">
-									10 05 2025
+									16 07 2025
 								</span>{" "}
 								года
 							</motion.p>
@@ -200,7 +198,7 @@ const Welcome = () => {
 								}}
 								className="text-[18px] text-center"
 							>
-								Ресторан Vatan
+								Ресторан Grand Sherdor
 							</motion.p>
 							<motion.p
 								initial={{ scale: 0.9, opacity: 0 }}
@@ -212,7 +210,7 @@ const Welcome = () => {
 								}}
 								className="block mt-5 text-center"
 							>
-								Ориентир: кинотеатр &quot;ВАТАН&quot;
+								Ориентир: Рядом с бывшем зданием автовокзала.
 							</motion.p>
 						</div>
 						<motion.div
@@ -227,7 +225,7 @@ const Welcome = () => {
 						>
 							<Link
 								href={
-									"https://yandex.uz/maps/-/CHbbQQ3b"
+									"https://yandex.uz/maps/-/CHwyq-jP"
 								}
 								className="relative max-w-[260px] w-full h-10 px-5 flex items-center gap-2 border border-black rounded-full"
 							>
@@ -405,9 +403,9 @@ const Welcome = () => {
 								}}
 								className="text-lg text-center mt-5"
 							>
-								Фирдавс:
+								Абдулло:
 								<a href="tel:+9988866887707">
-									{" "}+998 (88) 668-77-07
+									{" "}+998 (91) 540-33-03
 								</a>
 							</motion.p>
 							{/* <motion.p
@@ -437,7 +435,7 @@ const Welcome = () => {
 									}}
 								>
 									<Link
-										href={"https://t.me/firdavs_billion"}
+										href={"https://t.me/Sobirjonov_786"}
 										className="flex text-xs rounded-full border border-blue-700"
 									>
 										<p className="my-2.5 mx-5 font-serif font-black text-blue-700">

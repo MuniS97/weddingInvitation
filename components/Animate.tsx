@@ -30,7 +30,7 @@ const Animate: React.FC<AnimateProps> = ({ setHide }) => {
          <img className="w-16 absolute top-[75%] left-[65%] z-20 invert pointer-events-none select-none" src="https://optim.tildacdn.com/tild6664-3235-4665-b766-323663623865/-/resize/210x/-/format/webp/photo.png" alt="" />
          <div className="w-[90%] h-[90%] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 z-10 bg-black/50"></div>
          <div className="w-[90%] h-[90%] absolute top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 duration-[3s] ease-out">
-            <img className="w-full h-full object-cover" src="https://optim.tildacdn.com/tild3836-6365-4437-a266-633363616531/-/format/webp/de1e4fde-6f71-48e4-8.jpg" alt="img" />
+            <img className="w-full h-full object-cover" src="https://kluch.media/upload/iblock/830/768x500mobil.jpg" alt="img" /> {/* https://kluch.media/upload/iblock/830/768x500mobil.jpg */}
          </div>
          <div className="h-full relative z-20 flex flex-col items-center justify-center text-white">
             <motion.p
@@ -66,7 +66,7 @@ const Animate: React.FC<AnimateProps> = ({ setHide }) => {
                   ease: "easeOut",
                   duration: 1,
                }}
-               className="px-10 py-4 text-xl border border-white"
+               className="px-10 py-4 text-xl border border-white rounded-3xl"
             >
                Открыть
             </motion.button>
