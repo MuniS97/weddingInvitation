@@ -33,7 +33,7 @@ const Welcome = () => {
 	return (
 		<div>
 			<Head>
-				<title>Abdullo & Shabnam</title>
+				<title>Javoxir & Istoda</title>
 				<link
 					rel="icon"
 					type="image/x-icon"
@@ -141,7 +141,7 @@ const Welcome = () => {
 								className="text-xl text-center mt-5"
 							>
 								<span className="font-[champignon] text-5xl leading-3 font-medium mr-3">
-									16 07 2025
+									20 08 2025
 								</span>{" "}
 								года
 							</motion.p>
@@ -196,9 +196,9 @@ const Welcome = () => {
 									ease: "easeOut",
 									duration: 1,
 								}}
-								className="text-[18px] text-center"
+								className="text-[25px] text-center font-bold"
 							>
-								Ресторан Grand Sherdor
+								Ресторан Royal Hall
 							</motion.p>
 							<motion.p
 								initial={{ scale: 0.9, opacity: 0 }}
@@ -208,9 +208,10 @@ const Welcome = () => {
 									ease: "easeOut",
 									duration: 1,
 								}}
-								className="block mt-5 text-center"
+								className="block mt-5 text-center text-base"
 							>
-								Ориентир: Рядом с бывшем зданием автовокзала.
+								Адрес: Самарканд, ул. Махмуда Кашгари, 84 <br />
+								Ориентир: Кафе Avesto Sweets
 							</motion.p>
 						</div>
 						<motion.div
@@ -224,8 +225,9 @@ const Welcome = () => {
 							className="flex justify-center mt-8"
 						>
 							<Link
+								target="_blank"
 								href={
-									"https://yandex.uz/maps/-/CHwyq-jP"
+									"https://yandex.uz/maps/-/CHut4B2-"
 								}
 								className="relative max-w-[260px] w-full h-10 px-5 flex items-center gap-2 border border-black rounded-full"
 							>
@@ -376,7 +378,7 @@ const Welcome = () => {
 					<Form />
 				</section> */}
 
-				<section>
+				{/* <section>
 					<div className="custom-container">
 						<div className="">
 							<motion.h2
@@ -408,7 +410,7 @@ const Welcome = () => {
 									{" "}+998 (91) 540-33-03
 								</a>
 							</motion.p>
-							{/* <motion.p
+							<motion.p
 								initial={{ y: 20, scale: 0.9, opacity: 0 }}
 								whileInView={{ y: 0, scale: 1, opacity: 1 }}
 								transition={{
@@ -423,7 +425,7 @@ const Welcome = () => {
 									{" "}
 									+998 (88) 223 3355
 								</a>
-							</motion.p> */}
+							</motion.p>
 							<div className="flex items-center justify-around mt-7">
 								<motion.div
 									initial={{ x: -40, scale: 0.9, opacity: 0 }}
@@ -448,7 +450,7 @@ const Welcome = () => {
 										</span>
 									</Link>
 								</motion.div>
-								{/* <motion.div
+								<motion.div
 									initial={{ x: 40, scale: 0.9, opacity: 0 }}
 									whileInView={{ x: 0, scale: 1, opacity: 1 }}
 									transition={{
@@ -470,11 +472,11 @@ const Welcome = () => {
 											</span>
 										</span>
 									</Link>
-								</motion.div> */}
+								</motion.div>
 							</div>
 						</div>
 					</div>
-				</section>
+				</section> */}
 			</main>
 			<section className="overflow-hidden mt-5">
 				<Counter />
