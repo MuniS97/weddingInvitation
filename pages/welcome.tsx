@@ -33,7 +33,7 @@ const Welcome = () => {
 	return (
 		<div>
 			<Head>
-				<title>Javoxir & Istoda</title>
+				<title>Sobirjon & Ruxshona</title>
 				<link
 					rel="icon"
 					type="image/x-icon"
@@ -141,7 +141,7 @@ const Welcome = () => {
 								className="text-xl text-center mt-5"
 							>
 								<span className="font-[champignon] text-5xl leading-3 font-medium mr-3">
-									20 08 2025
+									05 10 2025
 								</span>{" "}
 								года
 							</motion.p>
@@ -198,7 +198,7 @@ const Welcome = () => {
 								}}
 								className="text-[25px] text-center font-bold"
 							>
-								Ресторан Royal Hall
+								Ресторан Marjon
 							</motion.p>
 							<motion.p
 								initial={{ scale: 0.9, opacity: 0 }}
@@ -210,8 +210,7 @@ const Welcome = () => {
 								}}
 								className="block mt-5 text-center text-base"
 							>
-								Адрес: Самарканд, ул. Махмуда Кашгари, 84 <br />
-								Ориентир: Кафе Avesto Sweets
+								Адрес: Самарканд, городской посёлок Гульабад<br />
 							</motion.p>
 						</div>
 						<motion.div
@@ -227,7 +226,7 @@ const Welcome = () => {
 							<Link
 								target="_blank"
 								href={
-									"https://yandex.uz/maps/-/CHut4B2-"
+									"https://yandex.uz/maps/-/CLBRzMmP"
 								}
 								className="relative max-w-[260px] w-full h-10 px-5 flex items-center gap-2 border border-black rounded-full"
 							>

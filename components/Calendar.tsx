@@ -6,7 +6,7 @@ interface CalendarProps { }
 
 const Calendar: React.FC<CalendarProps> = () => {
 	const year = 2025;
-	const month = 7;
+	const month = 9;
 	const monthNames = [
 		'Январь',
 		'Февраль',
@@ -82,7 +82,7 @@ const Calendar: React.FC<CalendarProps> = () => {
 								key={idx}
 								className="text-base text-center relative"
 							>
-								{idx === 19 && (
+								{idx === 4 && (
 									<motion.div
 										initial={{ opacity: 0 }}
 										whileInView={{ opacity: 1 }}
