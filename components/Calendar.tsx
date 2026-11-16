@@ -5,8 +5,8 @@ import { GiBigDiamondRing } from "react-icons/gi";
 interface CalendarProps { }
 
 const Calendar: React.FC<CalendarProps> = () => {
-	const year = 2025;
-	const month = 9;
+	const year = 2026;
+	const month = 10;
 	const monthNames = [
 		'Январь',
 		'Февраль',
@@ -82,7 +82,7 @@ const Calendar: React.FC<CalendarProps> = () => {
 								key={idx}
 								className="text-base text-center relative"
 							>
-								{idx === 4 && (
+								{idx === 21 && (
 									<motion.div
 										initial={{ opacity: 0 }}
 										whileInView={{ opacity: 1 }}
