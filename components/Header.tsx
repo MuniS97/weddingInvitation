@@ -29,7 +29,7 @@ const Header: React.FC<HeaderProps> = () => {
 					}}
 					className="text-[17px]"
 				>
-					Бехзод и Озода
+					Бекзод и Озода
 				</motion.p>
 			</div>
 		</header>
